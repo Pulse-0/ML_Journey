@@ -20,4 +20,6 @@ git commit -m "messae" --> commit the changes
 git commit -am "message" --> in this case you no need to add files.
 
 Now we have to push the commits to github.
-git -push 
+git -push --> It it will push the commits. but you have to set this "git config --global push.autoSetupRemote true" to automatically link local branch to github branch after you can directly use git push
+otherwise you will have to use
+"git push origin <branch name>"
